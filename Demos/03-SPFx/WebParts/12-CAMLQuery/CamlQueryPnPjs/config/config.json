@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "caml-query-pnpjs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/camlQueryPnpjs/CamlQueryPnpjsWebPart.js",
+          "manifest": "./src/webparts/camlQueryPnpjs/CamlQueryPnpjsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CamlQueryPnpjsWebPartStrings": "lib/webparts/camlQueryPnpjs/loc/{locale}.js"
+  }
+}

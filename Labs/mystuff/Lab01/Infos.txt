@@ -1,0 +1,97 @@
+Display name:				Hello ASPNET Core Identity 01
+Application (client) ID:		518b4262-d2c6-447b-8bee-6646372e97d0
+Object ID:				b0fc8289-086f-45c4-bc00-7a771a4eae76
+Client Secret:				gV_egS-7IqwV46-f0mYJot23T_EfKzS8_6
+
+Display name:				Hello ASPNET Core Identity 02
+Application (client) ID:		921fc10a-143a-4866-ac5c-f7c2bc42c9de
+Object ID:				6c0c84c1-d96a-45e2-a38b-6d8df2f3c4f6
+
+Display name:				Hello ASPNET Core Identity 03
+Application (client) ID:		973d8891-9ae1-4d74-8318-b9909cc9354e
+Object ID:				3323eb87-6149-42d6-802b-b279f72fcc88
+
+Display name:				MS-600-FirstApp
+Application (client) ID:		6d721bcb-d4a9-430b-b172-8097a27aef42
+Object ID:				788e3513-0003-4d0d-9efb-45afc35ac762
+
+Display name:				Product Catalog API
+Application (client) ID:		e95b80b8-65c0-4118-9ab0-63eb91d36cda
+Object ID:				9b42a65e-f10f-4a38-b76d-753c820a85b3
+
+Display name:				JavaScript-SPA-App
+Application (client) ID:		8e12e484-c0de-4177-90e8-f40136da32dc
+Object ID:				65aa46cf-5c37-4b5a-8699-b00b8d950b4a
+
+Display name:				Hello World Identity
+Application (client) ID:		d1c27e00-5561-4b6a-834c-ea40b2bfdb57
+
+
+{
+  "adminConsentDescription": "Allow the application to have read-only access to all Employee data.",
+  "adminConsentDisplayName": "Read-only access to Employee records",
+  "id": "ede407eb-3c3a-4918-9e2e-803d2298e247",
+  "isEnabled": true,
+  "type": "User",
+  "userConsentDescription": "Allow the application to have read-only access to your Employee data.",
+  "userConsentDisplayName": "Read-only access to your Employee records",
+  "value": "Employees.Read.All"
+}
+
+
+
+
+Tenant ID: 				2ec8ab30-1a62-4e10-89e1-f4a4828c721a
+Primary domain: 			devgood.onmicrosoft.com
+
+####################################################################################################################################################################################
+Claims with internal AAD Account:
+################SingleTenant#####################
+aio									ATQAy/8TAAAALngD6Tl89d5YI1b7jcjdCgEHTlC+PqDzNaK6xGVO8LvLTZJXdZDZ+bnmhOKV8pje
+name									Joerg Pabst
+http://schemas.microsoft.com/identity/claims/objectidentifier		4e4f229c-105d-4998-80df-85ac450a98a9
+preferred_username							joerg.pabst@devgood.onmicrosoft.com
+rh									0.AYEAMKvILmIaEE6J4fSkgoxyGmJCi1HG0ntEi-5mRjcul9CBAA8.
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier	wT2-I95svKowsx6bSBekQT_dUprz8y5z0OCub5Rc2j4
+http://schemas.microsoft.com/identity/claims/tenantid			2ec8ab30-1a62-4e10-89e1-f4a4828c721a
+uti									NeD9umj7aEKelTy7JYY7AA
+################MultiTenant#####################
+aio									ATQAy/8TAAAAYHH/uLgeT+8IVzbYUe6iU4OapnSP0ZUIh5cljGBMRdEPHtn4Xvqj6nTDIbIsvbnd
+name									Joerg Pabst
+http://schemas.microsoft.com/identity/claims/objectidentifier		4e4f229c-105d-4998-80df-85ac450a98a9
+preferred_username							joerg.pabst@devgood.onmicrosoft.com
+rh									0.AYEAMKvILmIaEE6J4fSkgoxyGgrBH5I6FGZIrFz3wrxCyd6BAA8.
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier	LIXpym6ybhkq3yXX3-CHySEPT2lknnRgMt7KyF1a-RI
+http://schemas.microsoft.com/identity/claims/tenantid			2ec8ab30-1a62-4e10-89e1-f4a4828c721a
+uti									jkZGwpXJI0CoOmpFt_DDAA
+################SingleB2BTenant#####################
+aio									ATQAy/8TAAAA7zgR2R1sXVS10KdRi5YxGzPpnHgOcgY2tEHT9iubW+7rpccvFe21dr7aqEhTINpC
+name									Joerg Pabst
+http://schemas.microsoft.com/identity/claims/objectidentifier		4e4f229c-105d-4998-80df-85ac450a98a9
+preferred_username							joerg.pabst@devgood.onmicrosoft.com
+rh									0.AYEAMKvILmIaEE6J4fSkgoxyGpGIPZfhmnRNgxi5kJzJNU6BAA8.
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier	aZAIo_884SyAH9d8GpEg4Y5G0MzKkkUEWpz8b3-XFHs
+http://schemas.microsoft.com/identity/claims/tenantid			2ec8ab30-1a62-4e10-89e1-f4a4828c721a
+uti									xdv6lTvBIUyd3vJEJBi0AA
+####################################################################################################################################################################################
+Claims with external AAD Account:
+################MultiTenant#####################
+aio									ATQAy/8TAAAAMqCyZaTquWj7yv79Q41dZJ1oU2I0ji68Xc4Px7yCoEaKDg16hW92x3mWaRvzD7Nk
+name									Jörg Pabst
+http://schemas.microsoft.com/identity/claims/objectidentifier		e611e774-6d83-47af-a234-2ee4e1cdf10f
+preferred_username							joerg.pabst@devevil.onmicrosoft.com
+rh									0.ATwAtdIHeTu9K06E6o8UQUTWLgrBH5I6FGZIrFz3wrxCyd48AO4.
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier	_CsSPQNAtnM6RQmKmwREZnPwFMfaMs2oRn3rDdrGXLg
+http://schemas.microsoft.com/identity/claims/tenantid			7907d2b5-bd3b-4e2b-84ea-8f144144d62e
+uti									R_8kEZkTW0WuXtFWdS9sAA
+################SingleB2BTenant#####################
+aio									AUQAu/8TAAAAeNXStksYhpAVAV+g0PE85/AGE9joCe6hpqk6982ys6qydII6f+c2Op7rnqbAOEYB4+b4nF5Y8+Qetr9RKzSBCg==
+http://schemas.microsoft.com/identity/claims/identityprovider		https://sts.windows.net/7907d2b5-bd3b-4e2b-84ea-8f144144d62e/
+name									Jörg Pabst
+http://schemas.microsoft.com/identity/claims/objectidentifier		64159255-119b-4dd6-a005-a034af3747ac
+preferred_username							joerg.pabst@devevil.onmicrosoft.com
+rh									0.AYEAMKvILmIaEE6J4fSkgoxyGpGIPZfhmnRNgxi5kJzJNU6BAO4.
+http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier	um8xEZdtGKti2Su50f_XHRqbhlR0opsWyIt1SIO2HJ8
+http://schemas.microsoft.com/identity/claims/tenantid			2ec8ab30-1a62-4e10-89e1-f4a4828c721a
+uti									1Fpxs96AKkWvL3Ou6Cy7AA
+##########################################################################################

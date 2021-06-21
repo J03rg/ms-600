@@ -19,7 +19,7 @@ namespace MSALDaemon
         [HttpGet]
         public ActionResult SendMail()
         {
-            GraphHelper.Send("Hello World", "A msg from me", new[] { "alexander.pajer@integrations.at" }, config.GraphCfg);
+            GraphHelper.SendMail("Hello World", "A msg from me", new[] { "alexander.pajer@integrations.at" }, config.GraphCfg);
             return Ok();
         }
     }
